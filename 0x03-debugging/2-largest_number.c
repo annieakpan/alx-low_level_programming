@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -17,7 +18,7 @@ if (a >= b && a >= c)
 largest = a;
 }
 
-else if (b >= a && b >=c)
+else if (b >= a && b >= c)
 {
 largest = b;
 }
@@ -29,3 +30,4 @@ largest = c;
 
 return (largest);
 }
+
