@@ -26,7 +26,7 @@ while (i < 10)
 if (i < end)
 printf("%02x", *(b + start + i));
 else
-printf(" ");
+printf("  ");
 if (i % 2)
 printf(" ");
 i++;
@@ -40,7 +40,7 @@ i++;
 * @start: starting position
 * @end: ending position
 */
-void printASCII(char *n, int start, int end)
+void printASCII(char *b, int start, int end)
 {
 int ch, i = 0;
 
@@ -55,7 +55,7 @@ i++;
 }
 
 /**
-print_buffer - prints a buffer
+* print_buffer - prints a buffer
 * @b: string
 * @size: size of buffer
 */
