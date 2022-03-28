@@ -25,5 +25,6 @@ if (needle[j - i] == '\0')
 {
 return (haystack + i);
 }
+}
 return (0);
 }
