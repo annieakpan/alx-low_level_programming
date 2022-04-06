@@ -37,6 +37,7 @@ else if (cents % 2 < cents)
 {
 cents -= 2;
 coins++;
+}
 else if (cents % 1 < cents)
 {
 cents -= 1;
