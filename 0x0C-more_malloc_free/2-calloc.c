@@ -36,7 +36,7 @@ unsigned int i = 0;
 while (i < n)
 {
 
-*(s + 1) = b;
+*(s + i) = b;
 i += 1;
 }
 return (s);
