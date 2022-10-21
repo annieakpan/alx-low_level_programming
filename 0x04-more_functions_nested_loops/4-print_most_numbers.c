@@ -1,24 +1,17 @@
 #include "main.h"
 
 /**
- * more_numbers - Entry point
- *
- * Return: Always 0 (Success)
+ * print_most_numbers - print number 0 to 9 except 2 && 4
  */
 
-void more_numbers(void)
+void print_most_numbers(void)
 {
-	int i, j;
+	int num;
 
-	for (i = 0; i < 10; i++)
+	for (num = 48; num <= 57; num++)
 	{
-		for (j = 0; j <= 14; j++)
-		{
-			if (j >= 10)
-				_putchar(j / 10 + '0');
-
-			_putchar(j % 10 + '0');
-		}
-		_putchar('\n');
+		if (num != 50 && num != 52)
+			_putchar(num);
 	}
+	_putchar('\n');
 }
