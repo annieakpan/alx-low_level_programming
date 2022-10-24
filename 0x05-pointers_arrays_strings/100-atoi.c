@@ -29,6 +29,7 @@ int _atoi(char *s)
 			}
 		}
 		count++;
+	}
 
 		for (i = count - size; i < count; i++)
 		{
@@ -36,4 +37,4 @@ int _atoi(char *s)
 			d /= 10;
 		}
 		return (oi * pn);
-	}
+}
