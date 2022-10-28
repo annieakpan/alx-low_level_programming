@@ -14,6 +14,7 @@ char *leet(char *s)
 		{'o', 'O'}, {'t', 'T'}, {'l', 'L'}};
 	char nums[5] = {'4', '3', '0', '7', '1'};
 	int i = 0, j;
+
 	while (s[i] != '\0')
 	{
 		for (j = 0; j < 5; j++)
